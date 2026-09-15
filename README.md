@@ -34,6 +34,10 @@ python3 tools/main.py --keychain-compat \
 此版本使用自己的憑證和 provisioning profile 完整重簽，可收發訊息，但是沒有推播通知。
 重簽可以使用 [AltStore](https://altstore.io/) 或 [Sideloadly](https://sideloadly.io/)。
 
+## 實際效果 📱
+
+![Demo](demo.jpg)
+
 ## 原理 ⚙️
 
 - LINE 會檢查裝置是否為 iPad，工具只修改副裝置登入入口的條件跳轉，不會全域偽裝裝置。
