@@ -37,6 +37,12 @@ A decrypted IPA is also required. If you do not have a jailbroken device to crea
 This version is fully re-signed with its own certificate and provisioning profile. It can send and receive messages but does not support push notifications.
 Use [AltStore](https://altstore.io/) or [Sideloadly](https://sideloadly.io/) for re-signing.
 
+## Example Use Case 💼
+
+Suppose you have two LINE accounts and two phones: one for personal use and one for work. If you want to view the contents of your personal account on the work phone as well, you can use this project to build a modified IPA and sign in to it on the work phone as a companion device for your personal account.
+
+Before installing, change the modified IPA's bundle ID so that it differs from the existing LINE app on the work phone. For example, keep the original LINE app for the work account and use a different bundle ID for the modified app signed in to the personal account. The two apps need different bundle IDs to be installed side by side and used with separate accounts on the same phone.
+
 ## Demo 📱
 
 ![Demo](demo.jpg)

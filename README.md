@@ -36,6 +36,12 @@ python3 tools/main.py --keychain-compat \
 此版本使用自己的憑證和 provisioning profile 完整重簽，可收發訊息，但是沒有推播通知。
 重簽可以使用 [AltStore](https://altstore.io/) 或 [Sideloadly](https://sideloadly.io/)。
 
+## 使用範例 💼
+
+假設你有兩個 LINE 帳號和兩隻手機：一隻作為個人手機，另一隻作為公司手機。若希望在公司手機上也能查看個人帳號的內容，可以使用本專案建置修改後的 IPA，並在公司手機上將它以個人帳號的副裝置登入。
+
+安裝前請將修改後 IPA 的 bundle ID 改成與公司手機既有的 LINE App 不同，例如保留原本 LINE 給公司帳號使用，將修改版改為另一個 bundle ID 給個人帳號使用。兩個 App 的 bundle ID 不同，才能在同一支手機上雙開並分別登入兩個帳號。
+
 ## 實際效果 📱
 
 ![Demo](demo.jpg)
