@@ -2,6 +2,8 @@
 
 此工具將第二隻 iPhone 偽裝為 iPad 副裝置，以完成同一個 LINE 帳號的副裝置登入認證。
 
+[English](README_EN.md)
+
 ## 支援版本 📦
 
 | LINE 版本 | 需要越獄 | 安裝方式 | 優點 | 缺點 |
